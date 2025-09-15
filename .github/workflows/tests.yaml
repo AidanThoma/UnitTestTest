@@ -18,4 +18,5 @@ jobs:
         uses: astral-sh/setup-uv@v6
       
       - name: run pytest
-        uses: uv run pytest
+        run: uv run pytest
+        run: echo "Hello"
